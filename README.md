@@ -44,7 +44,7 @@ and [Spring Boot](https://spring.io/projects/spring-boot#overview) were chosen f
 
 Development was carried out in [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate Edition (license for students).
 
-[Maven](https://adoptopenjdk.net/) was used to build the project and inject dependencies.
+[Maven](https://maven.apache.org/) was used to build the project and inject dependencies.
 
 [Thymeleaf](https://www.thymeleaf.org/) was chosen as the template engine.
 
