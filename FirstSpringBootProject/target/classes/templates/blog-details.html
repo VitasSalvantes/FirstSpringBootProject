@@ -7,9 +7,9 @@
 </head>
 <body>
 <header th:insert="blocks/header :: header"></header>
-<div th:each="el : ${post}" class="alert alert-info mt-2">
-    <h1 th:text="${el.title}"/>
-    <p th:text="${el.full_text}"/>
+<div th:each="el : ${post}" class="alert alert-info mt-2">  <!-- TODO: Add new line! -->
+    <h1 th:utext="${el.title}"/>        <!-- TODO: Add security! -->
+    <p th:utext="${el.full_text}"/>     <!-- TODO: Add security! -->
     <p><b>Views: </b><span th:text="${el.views}"/></p>
     <a th:href="'/blog/' + ${el.id} + '/edit'" class="btn btn-warning">Edit</a>
     <form th:action="'/blog/' + ${el.id} + '/delete'" method="post">
