@@ -12,9 +12,9 @@
     <h1>Edit</h1>
     <div th:each="el : ${post}">
         <form method="post">
-            <input type="text" th:value="${el.title}" name="title" class="form-control">
-            <input type="text" th:value="${el.anons}" name="anons" class="form-control">
-            <textarea th:text="${el.full_text}" name="full_text" class="form-control"/>
+            <input type="text" th:value="${el.title}" name="title" class="form-control"><br>
+            <input type="text" th:value="${el.anons}" name="anons" class="form-control"><br>
+            <textarea th:text="${el.full_text}" name="full_text" class="form-control" maxlength="1000000"/><br>
             <button type="submit" class="btn btn-success">Refresh</button>
         </form>
     </div>
