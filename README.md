@@ -55,4 +55,18 @@ the [MAMP](https://www.mamp.info/de/windows/) program was used.
 
 ## Screenshots
 
-Coming soon...
+Home page:
+
+![home](FirstSpringBootProject/screenshots/home.png "Home")
+
+Blog page:
+
+![blog](FirstSpringBootProject/screenshots/blog.png "Blog")
+
+Add post page:
+
+![add post](FirstSpringBootProject/screenshots/add_post.png "Add post")
+
+About page:
+
+![about](FirstSpringBootProject/screenshots/about.png "About")
