@@ -63,6 +63,10 @@ Blog page:
 
 ![blog](FirstSpringBootProject/screenshots/blog.png "Blog")
 
+Post details page:
+
+![post_details](FirstSpringBootProject/screenshots/post_details.png "Add post")
+
 Add post page:
 
 ![add post](FirstSpringBootProject/screenshots/add_post.png "Add post")
